@@ -5,7 +5,7 @@ import Calculator from './layout/Calculator/Calculator.js';
 
 const app = () =>
   <div className="app">
-    <Calculator Calculator/>
+    <Calculator />
   </div>;
 
 export default app;

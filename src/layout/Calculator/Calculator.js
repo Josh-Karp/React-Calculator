@@ -1,5 +1,12 @@
 import React from 'react';
 
-const calculator = () => <main className="calculator"></main>;
+import Screen from './Screen/Screen.js'
+import Keypad from './Keypad/Keypad.js';
+
+const calculator = () => 
+    <main className="calculator">
+        <Screen />
+        <Keypad />
+    </main>;
 
 export default calculator;

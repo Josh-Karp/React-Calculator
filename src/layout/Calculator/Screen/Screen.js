@@ -1,9 +1,12 @@
 import React from 'react';
+import ResultScreen from './ResultScreen/ResultScreen.js';
+import ComputationScreen from './ComputationScreen/ComputationScreen.js';
 
-const resultScreen = () => (
-    <div className="result-screen">
-        3124
-    </div>
+const screen = () => (
+    <section className="screen">
+        <ResultScreen />
+        <ComputationScreen />
+    </section>
 );
 
-export default resultScreen;
+export default screen;

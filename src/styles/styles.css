@@ -29,6 +29,18 @@ body {
     --shadow: rgba(0, 0, 0, .4);
 }
 
+:root {
+    --color-orange: #ff3c00;
+}
+
+.btn--primary {
+    color: var(--color-tomato);
+}
+
+.btn--operator {
+    color: var(--color-orange);
+}
+
 /* App */
 
 .app {
